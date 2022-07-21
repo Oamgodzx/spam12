@@ -2,9 +2,9 @@
 import os
 import time
 import threading
-from request import get
+from requests import get
 from re import search
-from request import Session
+from requests import Session
 from threading import Thread
 import colorama
 os.system("clear") #ในวงเล็ปคือคําสั่งในแอพเทอมัก
